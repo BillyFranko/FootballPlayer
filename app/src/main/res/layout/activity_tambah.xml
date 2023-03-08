@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:layout_margin="6dp"
+    android:background="#2196F3"
     tools:context=".TambahActivity">
 
     <TextView
@@ -24,21 +25,26 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Nama Player"
-        android:textSize="21sp"/>
+        android:textSize="21sp"
+        android:layout_marginHorizontal="10dp"/>
 
     <EditText
         android:id="@+id/et_nomor"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Nomor Punggung"
-        android:textSize="21sp"/>
+        android:textSize="21sp"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="6dp"/>
 
     <EditText
         android:id="@+id/et_klub"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Klub"
-        android:textSize="21sp"/>
+        android:textSize="21sp"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="6dp"/>
 
     <Button
         android:id="@+id/btn_tambah"
@@ -46,5 +52,6 @@
         android:layout_height="56dp"
         android:layout_marginTop="16dp"
         android:text="Simpan"
-        android:textSize="21sp"/>
+        android:textSize="21sp"
+        android:layout_marginHorizontal="3dp"/>
 </LinearLayout>
