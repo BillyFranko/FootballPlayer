@@ -23,28 +23,31 @@
     <EditText
         android:id="@+id/et_nama"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="48dp"
         android:hint="Nama Player"
         android:textSize="21sp"
-        android:layout_marginHorizontal="10dp"/>
+        android:layout_marginHorizontal="10dp"
+        android:background="@color/white"/>
 
     <EditText
         android:id="@+id/et_nomor"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="48dp"
         android:hint="Nomor Punggung"
         android:textSize="21sp"
         android:layout_marginHorizontal="10dp"
-        android:layout_marginTop="6dp"/>
+        android:layout_marginTop="6dp"
+        android:background="@color/white"/>
 
     <EditText
         android:id="@+id/et_klub"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="48dp"
         android:hint="Klub"
         android:textSize="21sp"
         android:layout_marginHorizontal="10dp"
-        android:layout_marginTop="6dp"/>
+        android:layout_marginTop="6dp"
+        android:background="@color/white"/>
 
     <Button
         android:id="@+id/btn_tambah"
